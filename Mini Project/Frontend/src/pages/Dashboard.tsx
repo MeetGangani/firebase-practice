@@ -178,62 +178,7 @@ const Dashboard = () => {
           </motion.div>
 
           {/* Additional Content Cards */}
-          <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {/* Activity Card */}
-            <motion.div
-              className="bg-white overflow-hidden shadow rounded-lg"
-              variants={cardVariants}
-            >
-              <div className="px-4 py-5 sm:p-6">
-                <h3 className="text-lg font-medium text-gray-900">Recent Activity</h3>
-                <div className="mt-4">
-                  <p className="text-sm text-gray-500">
-                    Your account activity will be shown here.
-                  </p>
-                </div>
-              </div>
-            </motion.div>
-
-            {/* Settings Card */}
-            <motion.div
-              className="bg-white overflow-hidden shadow rounded-lg"
-              variants={cardVariants}
-            >
-              <div className="px-4 py-5 sm:p-6">
-                <h3 className="text-lg font-medium text-gray-900">Account Settings</h3>
-                <div className="mt-4">
-                  <p className="text-sm text-gray-500">
-                    Manage your account preferences and settings.
-                  </p>
-                  <button 
-                    className="mt-4 px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
-                  >
-                    Settings
-                  </button>
-                </div>
-              </div>
-            </motion.div>
-
-            {/* Help & Support Card */}
-            <motion.div
-              className="bg-white overflow-hidden shadow rounded-lg"
-              variants={cardVariants}
-            >
-              <div className="px-4 py-5 sm:p-6">
-                <h3 className="text-lg font-medium text-gray-900">Help & Support</h3>
-                <div className="mt-4">
-                  <p className="text-sm text-gray-500">
-                    Need help? Contact our support team.
-                  </p>
-                  <button 
-                    className="mt-4 px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
-                  >
-                    Get Help
-                  </button>
-                </div>
-              </div>
-            </motion.div>
-          </div>
+         
         </div>
       </div>
     </motion.div>

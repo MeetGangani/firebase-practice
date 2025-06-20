@@ -1,0 +1,13 @@
+/* Regular CSS file */
+.css-box {
+  background-color: lightblue;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid blue;
+}
+
+/* This is global and could affect other components */
+.css-box h3 {
+  color: darkblue;
+} 
